@@ -1,5 +1,6 @@
+com/Backend/Portfolio/PortfolioApplication.class
+com/Backend/Portfolio/config/WebConfig.class
+com/Backend/Portfolio/controller/ProjectController.class
 com/Backend/Portfolio/service/ProjectService.class
 com/Backend/Portfolio/entity/Project.class
-com/Backend/Portfolio/PortfolioApplication.class
 com/Backend/Portfolio/repository/ProjectRepository.class
-com/Backend/Portfolio/controller/ProjectController.class

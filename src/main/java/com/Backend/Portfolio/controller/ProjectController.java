@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/projects")
+@CrossOrigin(origins = "http://localhost:3000")  // Allow requests from this origin
 public class ProjectController {
 
     @Autowired
@@ -40,5 +41,6 @@ public class ProjectController {
         projectRepository.deleteById(id);
     }
 }
+
 
 

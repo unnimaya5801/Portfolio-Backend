@@ -9,8 +9,7 @@ public class Project {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String title;
-    private String description;
+    private String description;  // Only keep the description field
 
     // No-argument constructor for JPA
     public Project() {
@@ -25,14 +24,6 @@ public class Project {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -40,5 +31,5 @@ public class Project {
     public void setDescription(String description) {
         this.description = description;
     }
-
 }
+
